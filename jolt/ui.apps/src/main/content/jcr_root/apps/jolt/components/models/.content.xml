@@ -1,0 +1,14 @@
+<section class="cmp-models" id="models">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/person.png" alt="About Us" class="d-none d-md-block img-fluid cmp-models__image">
+            </div>
+            <div class="col-md-8">
+                <h2 class="cmp-models__heading">Headline 50 characters max ipsum dolor sit amet </h2>
+                <p class="cmp-models__text">Body copy 180 characters max, 55 character line limit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  Lorem ipsum dolor sit amet, elit sed do</p>
+                <div><a class="btn btn btn-outline-primary fw-bold cmp-models__link" href="#">Learn more</a></div>
+            </div>
+        </div>
+    </div>
+</section>

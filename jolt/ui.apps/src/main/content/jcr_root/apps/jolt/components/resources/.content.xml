@@ -1,0 +1,51 @@
+<section class="cmp-resources" id="resources">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/router.png" alt="Router" class="img-fluid d-none d-md-block cmp-resources__image" />
+            </div>
+            <div class="col-md-8">
+                <h2 class="cmp-resources__heading">Headline, suggested 60 characters, Lorem ipsum dolor sit</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cmp-resources__card">
+                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
+                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                            <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
+                            <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cmp-resources__card">
+                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
+                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                            <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
+                            <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cmp-resources__card">
+                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
+                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                            <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
+                            <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cmp-resources__card">
+                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
+                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                            <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
+                            <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn btn-outline-primary cmp-resources__btn">View all</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+<section class="cmp-overview" id="overview">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="cmp-overview__heading">Headline, suggested 60 characters, Lorem ipsum dolor sit</h3>
+            </div>
+            <div class="col-md-8">
+                <p class="cmp-overview__text">Lead in, suggested 180 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac commodo est, ut fringilla dolor. Mauris quis nunc justo. Proin nisl at.</p>
+            </div>
+        </div>
+    </div>
+</section>

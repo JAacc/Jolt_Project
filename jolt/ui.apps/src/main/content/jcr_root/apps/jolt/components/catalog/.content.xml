@@ -1,0 +1,26 @@
+<section class="cmp-catalog" id="catalog">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h3 class="cmp-catalog__heading">Headline 30 characters max</h3>
+        </div>
+        <div class="cmp-catalog__content">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="fw-bold cmp-catalog__item-subtitle">Eyebrow 40 characters max</p>
+                    <h4 class="cmp-catalog__item-title">Title 50 characters max, 30 per line</h4>
+                    <p class="cmp-catalog__item-text">Body copy, suggested 150 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices facilisis sodales. Nulla non ullamcorper ac.</p>
+                    <a class="cmp-catalog__item-link" href="#">Get details ></a>
+                </div>
+                <div class="col-md-6">
+                    <p class="fw-bold cmp-catalog__item-subtitle">Eyebrow 40 characters max</p>
+                    <h4 class="cmp-catalog__item-title">Title 50 characters max, 30 per line</h4>
+                    <p class="cmp-catalog__item-text">Body copy, suggested 150 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices facilisis sodales. Nulla non ullamcorper ac.</p>
+                    <a class="cmp-catalog__item-link" href="#">Get details ></a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center cmp-catalog__view-all">
+            <a href="#" class="btn btn btn-outline-primary fw-bold cmp-catalog__btn">View more</a>
+        </div>
+    </div>
+</section>
