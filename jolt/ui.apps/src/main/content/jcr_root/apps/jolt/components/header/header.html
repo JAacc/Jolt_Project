@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="nav justify-content-end">
                 <a class="d-flex nav-link" aria-current="page" href="#">How to buy</a>
-                <a class="d-flex nav-link" href="#">Partners</a>
+                <a class="d-flex nav-link" href="${properties.link9 || '#'}">Partners</a>
                 <a class="d-flex nav-link" href="#"><span class="cmp-header__icon-user"></span> Log in</a>
                 <a class="d-flex nav-link" href="#"><span class="cmp-header__icon-world"></span> US EN</a>
             </nav>
@@ -20,17 +20,29 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Products and Services</a>
+                        <li class="nav-item ${properties.link1 && properties.linkheader1 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" aria-current="page" href="${properties.link1 || '#'}">${properties.linkheader1}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Solutions</a>
+                        <li class="nav-item ${properties.link2 && properties.linkheader2 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link2 || '#'}">${properties.linkheader2}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Support</a>
+                        <li class="nav-item ${properties.link3 && properties.linkheader3 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link3 || '#'}">${properties.linkheader3}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Learn</a>
+                        <li class="nav-item ${properties.link4 && properties.linkheader4 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link4 || '#'}">${properties.linkheader4}</a>
+                        </li>
+                        <li class="nav-item ${properties.link5 && properties.linkheader5 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link5 || '#'}">${properties.linkheader5}</a>
+                        </li>
+                        <li class="nav-item ${properties.link6 && properties.linkheader6 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link6 || '#'}">${properties.linkheader6}</a>
+                        </li>
+                        <li class="nav-item ${properties.link7 && properties.linkheader7 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link7 || '#'}">${properties.linkheader7}</a>
+                        </li>
+                        <li class="nav-item ${properties.link8 && properties.linkheader8 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <a class="nav-link" href="${properties.link8 || '#'}">${properties.linkheader8}</a>
                         </li>
                     </ul>
                 </div>

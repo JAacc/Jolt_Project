@@ -27,6 +27,16 @@ main {
   background-color: #FFF;
 }
 
+.cmp_hidden {
+    display:none;
+}
+
+.cmp_not_hidden {
+    display: block;
+}
+
+
+
 .btn-primary {
   background-color: #0076D5;
   border-color: #0076D5;
