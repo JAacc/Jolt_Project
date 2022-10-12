@@ -4,34 +4,34 @@
             <div class="row">
                 <div class="col-lg-7">
                     <nav class="nav">
-                        <a class="nav-link p-0" href="#">About Jolt</a>
-                        <a class="nav-link p-0" href="#">Contact us</a>
-                        <a class="nav-link p-0" href="#">Careers</a>
-                        <a class="nav-link p-0" href="#">Meet our partners</a>
+                        <a class="nav-link p-0" href="${properties.linkA || '#'}">About Jolt</a>
+                        <a class="nav-link p-0" href="${properties.linkB || '#'}">Contact us</a>
+                        <a class="nav-link p-0" href="${properties.linkC || '#'}">Careers</a>
+                        <a class="nav-link p-0" href="${properties.linkD || '#'}">Meet our partners</a>
                     </nav>
                 </div>
                 <div class="col-lg-5">
                     <ul class="list-inline d-lg-flex justify-content-end">
-                        <li class="list-inline-item"><a href="#"><span class="d-block cmp-footer__icon cmp-footer__icon-fb"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="d-block cmp-footer__icon cmp-footer__icon-tw"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="d-block cmp-footer__icon cmp-footer__icon-lk"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="d-block cmp-footer__icon cmp-footer__icon-yt"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="d-block cmp-footer__icon cmp-footer__icon-in"></span></a></li>
+                        <li class="list-inline-item"><a href="{properties.linkFB || '#'}"><span class="d-block cmp-footer__icon cmp-footer__icon-fb"></span></a></li>
+                        <li class="list-inline-item"><a href="{properties.linkTW || '#'}"><span class="d-block cmp-footer__icon cmp-footer__icon-tw"></span></a></li>
+                        <li class="list-inline-item"><a href="{properties.linkLI || '#'}"><span class="d-block cmp-footer__icon cmp-footer__icon-lk"></span></a></li>
+                        <li class="list-inline-item"><a href="{properties.linkYT || '#'}"><span class="d-block cmp-footer__icon cmp-footer__icon-yt"></span></a></li>
+                        <li class="list-inline-item"><a href="{properties.linkIG || '#'}"><span class="d-block cmp-footer__icon cmp-footer__icon-in"></span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="cmp-footer__secondary-nav">
             <nav class="cmp-navigation__nav nav">
-                <a class="nav-link p-0" href="#">Feedback</a>
-                <a class="nav-link p-0" href="#">Help</a>
-                <a class="nav-link p-0" href="#">Privacy statement</a>
-                <a class="nav-link p-0" href="#">Cookies</a>
-                <a class="nav-link p-0" href="#">Trademarks</a>
-                <a class="nav-link p-0" href="#">Supply chain transparency</a>
-                <a class="nav-link p-0" href="#">Sitemap</a>
+                <a class="nav-link p-0 ${properties.link1 && properties.linkheader1 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link1 || '#'}">${properties.linkheader1}</a>
+                <a class="nav-link p-0 ${properties.link2 && properties.linkheader2 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link2 || '#'}">${properties.linkheader2}</a>
+                <a class="nav-link p-0 ${properties.link3 && properties.linkheader3 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link3 || '#'}">${properties.linkheader3}</a>
+                <a class="nav-link p-0 ${properties.link4 && properties.linkheader4 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link4 || '#'}">${properties.linkheader4}</a>
+                <a class="nav-link p-0 ${properties.link5 && properties.linkheader5 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link5 || '#'}">${properties.linkheader5}</a>
+                <a class="nav-link p-0 ${properties.link6 && properties.linkheader6 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link6 || '#'}">${properties.linkheader6}</a>
+                <a class="nav-link p-0 ${properties.link7 && properties.linkheader7 ? 'cmp_not_hidden' : 'cmp_hidden'}" href="${properties.link7 || '#'}">${properties.linkheader7}</a>
             </nav>
         </div>
-        <div class="cmp-footer__copyright">©2022 Jolt Systems, Inc.</div>
+        <div class="cmp-footer__copyright">${properties.copyright}</div>
     </div>
 </footer>
