@@ -123,11 +123,46 @@
                                             sling:resourceType="granite/ui/components/coral/foundation/container"
                                     >
                                         <items jcr:primaryType="nt:unstructured">
+                                            <linkheader9
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Link Header 9"
+                                                    name="./linkheader9"/>
                                             <link9
                                                     jcr:primaryType="nt:unstructured"
                                                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                                    fieldLabel="Partners URL"
+                                                    fieldLabel="URL"
                                                     name="./link9"/>
+                                            <linkheader10
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Link Header 10"
+                                                    name="./linkheader10"/>
+                                            <link10
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="URL"
+                                                    name="./link10"/>
+                                            <linkheader11
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Link Header 11"
+                                                    name="./linkheader11"/>
+                                            <link11
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="URL"
+                                                    name="./link11"/>
+                                            <linkheader12
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Link Header 12"
+                                                    name="./linkheader12"/>
+                                            <link12
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="URL"
+                                                    name="./link12"/>
                                         </items>
                                     </column>
                                 </items>
