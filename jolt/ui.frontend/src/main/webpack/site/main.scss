@@ -196,6 +196,20 @@ main {
 }
 
 
+.navigationnew.gray .cmp-navigation .nav-link.active,
+.navigationnew.gray .cmp-navigation .nav-link:hover,
+.navigationnew.gray .cmp-navigation .nav-link:focus {
+  color: rgb(134, 126, 126);
+}
+
+
+.navigationnew.light-blue .cmp-navigation .nav-link.active,
+.navigationnew.light-blue .cmp-navigation .nav-link:hover,
+.navigationnew.light-blue .cmp-navigation .nav-link:focus {
+   color: rgb(64, 103, 223);
+}
+
+
 
 
 /* ################################################################## */

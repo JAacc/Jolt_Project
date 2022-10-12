@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Nav Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                    maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <nav1settings
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Nav 1 Settings"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true"
+                    >
+                        <items jcr:primaryType="nt:unstructured">
+                        <column
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container">
+                            <items jcr:primaryType="nt:unstructured">
+                                <splitnavheader1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Header"
+                                        name="./splitnavheader1"/>
+                                <splitnavhash1
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    fieldLabel="Hash name"
+                                    name="./splitnavhash1"/>
+                            </items>
+                        </column>
+                        </items>
+                    </nav1settings>
+                    <nav2settings
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nav 1 Settings"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            margin="{Boolean}true"
+                    >
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <splitnavheader2
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Header"
+                                            name="./splitnavheader2"/>
+                                    <splitnavhash2
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Hash name"
+                                            name="./splitnavhash2"/>
+                                </items>
+                            </column>
+                        </items>
+                    </nav2settings>
+                    <nav3settings
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nav 3 Settings"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            margin="{Boolean}true"
+                    >
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <splitnavheader3
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Header"
+                                            name="./splitnavheader3"/>
+                                    <splitnavhash3
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Hash name"
+                                            name="./splitnavhash3"/>
+                                </items>
+                            </column>
+                        </items>
+                    </nav3settings>
+                    <nav4settings
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nav 4 Settings"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            margin="{Boolean}true"
+                    >
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <splitnavheader3
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Header"
+                                            name="./splitnavheader4"/>
+                                    <splitnavhash3
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Hash name"
+                                            name="./splitnavhash4"/>
+                                </items>
+                            </column>
+                        </items>
+                    </nav4settings>
+                    <nav5settings
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nav 5 Settings"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            margin="{Boolean}true"
+                    >
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <splitnavheader5
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Header"
+                                            name="./splitnavheader5"/>
+                                    <splitnavhash5
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Hash name"
+                                            name="./splitnavhash5"/>
+                                </items>
+                            </column>
+                        </items>
+                    </nav5settings>
+                    <nav6settings
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nav 6 Settings"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            margin="{Boolean}true"
+                    >
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <splitnavheader6
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Header"
+                                            name="./splitnavheader6"/>
+                                    <splitnavhash6
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Hash name"
+                                            name="./splitnavhash6"/>
+                                </items>
+                            </column>
+                        </items>
+                    </nav6settings>
+                </items>
+            </tabs>
+        </items>
+
+    </content>
+</jcr:root>
