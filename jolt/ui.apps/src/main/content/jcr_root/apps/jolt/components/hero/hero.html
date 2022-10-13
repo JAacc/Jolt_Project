@@ -1,6 +1,6 @@
 <section class="cmp-hero">
     <div class="container">
-        <div class="d-flex flex-column justify-content-center cmp-hero__content" style="background-image: url(/content/dam/jolt/hero.png);">
+        <div class="d-flex flex-column justify-content-center cmp-hero__content" style="background-image: url(${properties.imagepath @context='styleString' || '/content/dam/jolt/hero.png'});">
             <div class="d-flex flex-column hero-content-wrapper">
                 <p class="fw-bold cmp-hero__subtitle">${properties.pretitle}</p>
                 <h1 class="fw-bold cmp-hero__heading">${properties.title}</h1>
