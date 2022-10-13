@@ -25,7 +25,7 @@ public class CatalogModel {
     private String ctaText;
 
     @Inject
-    private List<CardModel> cards;
+    private List<CatalogCardModel> cards;
 
     public String getId() {
         return id;
@@ -39,7 +39,10 @@ public class CatalogModel {
 
     public String getCtaText() { return ctaText; }
 
-    public List<CardModel> getCards() {
-        return new ArrayList<>(cards);
+    public List<CatalogCardModel> getCards() {
+        if (cards != null && !cards.isEmpty())
+            return new ArrayList<>(cards);
+
+        return new ArrayList<>();
     }
 }
