@@ -171,6 +171,12 @@ main {
   color: rgb(134, 126, 126);
 }
 
+.headernew.green .cmp-header__secondary-nav .nav-link.active,
+.headernew.green .cmp-header__secondary-nav .nav-link:hover,
+.headernew.green .cmp-header__secondary-nav .nav-link:focus {
+  color: #21a71d;
+}
+
 .headernew.light-blue .cmp-header__secondary-nav .nav-link.active,
 .headernew.light-blue .cmp-header__secondary-nav .nav-link:hover,
 .headernew.light-blue .cmp-header__secondary-nav .nav-link:focus {
@@ -182,6 +188,12 @@ main {
 .navigationnew.gray .cmp-navigation .nav-link:hover,
 .navigationnew.gray .cmp-navigation .nav-link:focus {
   color: rgb(134, 126, 126);
+}
+
+.navigationnew.green .cmp-navigation .nav-link.active,
+.navigationnew.green .cmp-navigation .nav-link:hover,
+.navigationnew.green .cmp-navigation .nav-link:focus {
+  color: #21a71d;
 }
 
 
@@ -267,6 +279,14 @@ main {
 
 .overviewnew.light-blue .overview-heading-wrapper .cmp-overview__heading {
     color: rgb(64, 103, 223);
+}
+
+.overviewnew.green .overview-heading-wrapper .cmp-overview__heading {
+    color: #21a71d;
+}
+
+.resources.green .cmp-resources__card .btn-primary {
+    color: #21a71d !important;
 }
 
 @media(max-width: 720px){
