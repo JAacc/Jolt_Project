@@ -27,6 +27,9 @@ public class CarouselModel {
     public String getTitle() { return title; }
 
     public List<CarouselCardModel> getCards() {
-        return new ArrayList<>(cards);
+        if (cards != null && !cards.isEmpty())
+            return new ArrayList<>(cards);
+
+        return new ArrayList<>();
     }
 }

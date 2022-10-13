@@ -24,11 +24,11 @@ public class CarouselCardModel {
     @ValueMapValue
     private String linkText;
 
-    @Inject
-    private long index;
-
-    private Boolean showBeginRowDiv;
-    private Boolean showEndRowDiv;
+//    @Inject
+//    private long index;
+//
+//    private Boolean showBeginRowDiv;
+//    private Boolean showEndRowDiv;
 
     public String getTitle() { return title; }
 
@@ -40,9 +40,9 @@ public class CarouselCardModel {
 
     public String getLinkText() { return linkText; }
 
-    public long getIndex() { return index; }
-
-    public Boolean getShowBeginRowDiv() { return index % 3 == 0; }
-
-    public Boolean getShowEndRowDiv() { return index % 3 == 1; }
+//    public long getIndex() { return index; }
+//
+//    public Boolean getShowBeginRowDiv() { return index % 3 == 0; }
+//
+//    public Boolean getShowEndRowDiv() { return index % 3 == 1; }
 }
