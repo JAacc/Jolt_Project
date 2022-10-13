@@ -1,0 +1,15 @@
+<sly data-sly-template.cards="${@ carousel}" data-sly-test="${carousel.cards.size > 0}" data-sly-list="${carousel.cards}" data-sly-use.cardTemplate="card.html">
+    <sly data-sly-test="${itemList.index == 0}">
+        <div class="carousel-item active">
+            <div class="row">
+    </sly>
+    <sly data-sly-test="${itemList.index == 3 || itemList.index == 6 || itemList.index == 9}">
+        <div class="carousel-item">
+            <div class="row">
+    </sly>
+    <sly data-sly-call="${cardTemplate.card @ card=item}"></sly>
+    <sly data-sly-test="${itemList.index == 2 || itemList.index == 5 || itemList.index == 8 || itemList.index == 11}">
+            </div>
+        </div>
+    </sly>
+</sly>
