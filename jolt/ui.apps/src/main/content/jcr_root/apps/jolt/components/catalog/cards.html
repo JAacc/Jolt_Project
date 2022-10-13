@@ -1,0 +1,9 @@
+<sly data-sly-template.cards="${@ catalog}" data-sly-test="${catalog.cards.size > 0}" data-sly-list="${catalog.cards}" data-sly-use.cardTemplate="card.html">
+    <sly data-sly-test="${itemList.index == 0 || itemList.index == 2 || itemList.index == 4 || itemList.index == 6 || itemList.index == 8}">
+        <div class="row">
+    </sly>
+    <sly data-sly-call="${cardTemplate.card @ card=item}"></sly>
+    <sly data-sly-test="${itemList.index == 1 || itemList.index == 3 || itemList.index == 5 || itemList.index == 7 || itemList.index == 9}">
+        </div>
+    </sly>
+</sly>

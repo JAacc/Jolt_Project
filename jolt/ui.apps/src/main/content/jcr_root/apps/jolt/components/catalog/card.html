@@ -1,0 +1,10 @@
+<sly data-sly-template.card="${@ card}">
+    <div class="col-md-6">
+        <p class="fw-bold cmp-catalog__item-subtitle">${card.subtitle}</p>
+        <h4 class="cmp-catalog__item-title">${card.title}</h4>
+        <div class="cmp-catalog__item-text">
+            ${card.description @ context="html"}
+        </div>
+        <a class="cmp-catalog__item-link" href="${card.linkUrl}" data-sly-unwrap="${!card.linkUrl}">${card.linkText}</a>
+    </div>
+</sly>
