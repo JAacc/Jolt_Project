@@ -2,23 +2,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="images/router.png" alt="Router" class="img-fluid d-none d-md-block cmp-resources__image" />
+                <img src="${properties.imagepath || './images/router.png'}" alt="${properties.imagealt || 'router'}" class="img-fluid d-none d-md-block cmp-resources__image" />
             </div>
             <div class="col-md-8">
-                <h2 class="cmp-resources__heading">Headline, suggested 60 characters, Lorem ipsum dolor sit</h2>
+                <h2 class="cmp-resources__heading">${properties.headline || 'Headline content, edit me please'}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 extra-spacing">
+                <ul class="resources-ul">
+                    <li class="${properties.tab1 ? 'cmp_not_hidden' : 'cmp_hidden'}"><a href="#">${properties.tab1}</a></li>
+                    <li class="${properties.tab2 ? 'cmp_not_hidden' : 'cmp_hidden'}"><a href="#">${properties.tab2}</a></li>
+                    <li class="${properties.tab3 ? 'cmp_not_hidden' : 'cmp_hidden'}"><a href="#">${properties.tab3}</a></li>
+                    <li class="${properties.tab4 ? 'cmp_not_hidden' : 'cmp_hidden'}"><a href="#">${properties.tab4}</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="cmp-resources__card">
-                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
-                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                        <div class="cmp-resources__card ${properties.cardheader1 && properties.cardcontent1 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <p class="cmp-resources__card-heading">${properties.cardheader1}</p>
+                            <p class="cmp-resources__card-text">${properties.cardcontent1}</p>
                             <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
                             <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="cmp-resources__card">
-                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
-                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                        <div class="cmp-resources__card ${properties.cardheader2 && properties.cardcontent2 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <p class="cmp-resources__card-heading">${properties.cardheader2}</p>
+                            <p class="cmp-resources__card-text">${properties.cardcontent2}</p>
                             <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
                             <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
                         </div>
@@ -26,24 +38,21 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="cmp-resources__card">
-                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
-                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                        <div class="cmp-resources__card ${properties.cardheader3 && properties.cardcontent3 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <p class="cmp-resources__card-heading">${properties.cardheader3}</p>
+                            <p class="cmp-resources__card-text">${properties.cardcontent3}</p>
                             <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
                             <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="cmp-resources__card">
-                            <p class="cmp-resources__card-heading">Title suggested 35 characters max</p>
-                            <p class="cmp-resources__card-text">Body copy, suggested 100 characters, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et.</p>
+                        <div class="cmp-resources__card ${properties.cardheader4 && properties.cardcontent4 ? 'cmp_not_hidden' : 'cmp_hidden'}">
+                            <p class="cmp-resources__card-heading">${properties.cardheader4}</p>
+                            <p class="cmp-resources__card-text">${properties.cardcontent4}</p>
                             <div><a href="#" class="btn btn-primary fw-bold cmp-resources__card-btn">Try it free</a></div>
                             <div><a href="#" class="cmp-resources__card-link">Get details ></a></div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <a href="#" class="btn btn btn-outline-primary cmp-resources__btn">View all</a>
                 </div>
             </div>
         </div>
