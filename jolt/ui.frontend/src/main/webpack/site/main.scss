@@ -192,6 +192,32 @@ main {
 }
 
 
+.hero.left .hero-content-wrapper {
+   align-items: flex-start;
+   text-align: left;
+}
+
+.hero.right .hero-content-wrapper {
+   align-items: flex-end;
+   text-align: right;
+}
+
+.hero.center .hero-content-wrapper {
+   align-items: center;
+   text-align: center;
+}
+
+.hero.dark .hero-content-wrapper p,
+.hero.dark .hero-content-wrapper h1 {
+    color: #1B1C1D;
+}
+
+.hero.light .hero-content-wrapper p,
+.hero.light .hero-content-wrapper h1 {
+    color: #cfd5db;
+}
+
+
 .extra-spacing {
     padding-top: 3em;
 }
@@ -202,6 +228,75 @@ main {
 
 .resources-ul li {
     padding-bottom: 2em;
+}
+
+.overview-wrapper {
+    width: 100%;
+}
+
+.overview-heading-wrapper {
+    width: 35%;
+    display: block;
+}
+
+.overview-text-wrapper {
+    width: 60%;
+    display: block;
+}
+
+.overviewnew.headingleft .overview-heading-wrapper {
+    float: left;
+    padding-left: 10px;
+}
+
+.overviewnew.headingleft .overview-text-wrapper {
+    float: right;
+    padding-right: 10px;
+}
+
+.overviewnew.headingright .overview-heading-wrapper {
+    float: right;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.overviewnew.headingright .overview-text-wrapper {
+    float: left;
+    padding-left: 10px;
+}
+
+.overviewnew.light-blue .overview-heading-wrapper .cmp-overview__heading {
+    color: rgb(64, 103, 223);
+}
+
+@media(max-width: 720px){
+
+.overview-heading-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.overview-text-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.overviewnew.headingleft .overview-heading-wrapper {
+
+}
+
+.overviewnew.headingleft .overview-text-wrapper {
+
+}
+
+.overviewnew.headingright .overview-heading-wrapper {
+
+}
+
+.overviewnew.headingright .overview-text-wrapper {
+
+}
+
 }
 
 
