@@ -1,0 +1,13 @@
+<sly data-sly-template.card="${@ card}">
+    <div class="col-lg-4">
+        <div class="cmp-carousel__item">
+            <p class="fw-bold cmp-carousel__item-title">${card.title}</p>
+            <div class="cmp-carousel__item-text">
+                ${card.description @ context="html"}
+            </div>
+            <div>
+                <a class="cmp-carousel__item-link" href="${card.linkUrl}" data-sly-unwrap="${!card.linkUrl}">${card.linkText}</a>
+            </div>
+        </div>
+    </div>
+</sly>
