@@ -286,7 +286,16 @@ main {
 }
 
 .resources.green .cmp-resources__card .btn-primary {
+    background: #21a71d !important;
+}
+
+.quote.green .btn-primary {
+    background: #21a71d !important;
+}
+
+.models.green .btn-outline-primary {
     color: #21a71d !important;
+    border-color: #21a71d !important;
 }
 
 @media(max-width: 720px){
